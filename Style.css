@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@500&display=swap');
+
+:root {
+    --color-neutral-0: #0e0c0c;
+    --color-neutral-10: #171717;
+    --color-neutral-30: #a8a29e;
+    --color-neutral-40: #f5f5f5;
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#Logo{
+ width: 160px;
+ height: 80px;
+ margin: 20px;
+ align-items: center;
+ float: left;
+ display: flex;
+}
+header{
+    background-color: rgb(0, 207, 0);
+    box-shadow: 0px 3px 10px rgb(43, 255, 0);
+}
+nav{
+    display: flex;
+    
+}
+nav ul{
+    box-sizing: border-box;
+    padding: 3rem 6rem;
+    list-style-type: none;
+    width: 1500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+nav ul li a{
+    text-decoration:none;
+    color: white;
+}
+.mobile-menu-icon{
+    display: none;
+}
+.mobile-menu-icon :hover{
+    background-color:  green;
+}
+.mobile-menu{
+    display: none;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.mobile-menu a{
+    text-decoration: none;
+    color: white;
+}
+.mobile-menu li{
+    margin: 3px;
+}
+.mobile-menu li :hover{
+    color: rgb(120, 255, 165);
+}
+.Container{
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: 8px;
+    height: 400px;
+    display: block;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+h1{
+    margin-left: 100px;
+    font-family: 'Changa', sans-serif;
+    font-size: 41px;
+}
+p{
+    font-family: 'Merienda', cursive;
+    font-size: 40px;
+    margin-top: 1px;
+}
+#inicial{
+    width: 550px;
+    height: 340px;
+    margin-top: 1cm;
+    float:right;
+    margin-left: -125px;
+    
+}
+h2{
+    font-size: 50px;
+    color: black;
+    font-family: 'Changa', sans-serif;
+    margin: 30px;
+}
+h3{
+    font-size: 40px;
+    color: rgb(120, 255, 165);
+    font-family: 'Merienda', cursive;
+    margin-top: -40px;
+    margin-left: 150px;
+}
+h4{
+    color: black;
+    font-family: 'Changa', sans-serif;
+    font-size: 22px;
+    margin-top: 1px;
+}
+
+body{
+    background-color: hsl(186, 100%, 98%);
+    height: 100vh;
+}
+.Corpo{
+    display: flex;
+    margin: 30px;
+    align-items: center;
+    text-align: center;
+}
+#icon1{
+    width: 120px;
+    height: 100px;
+    margin: 35px;
+}
+.Historia{
+    width: 25%;
+    box-shadow: 20px 20px 100px -30px hsl(265, 100%, 86%);
+    margin: 5px;
+    border-radius: 2em;
+    border-style: solid;
+    border-color: #dcb1fb;
+}
+.Historia a{
+    text-decoration: none;
+    color: inherit;
+}
+.Historia:hover{
+    color: rgb(120, 255, 165);
+    border-color: rgb(120,255 , 165);
+    cursor: pointer;
+}
+.Historia a :hover{
+    color: rgb(120, 255, 165);
+
+}
+.Comida{
+    width: 25%;
+    box-shadow: 20px 20px 100px -30px #feb0f7;
+    margin: 5px;
+    border-radius: 2em;
+    border-style: solid;
+    border-color: #f9b9fa;
+
+}
+.Comida a{
+    text-decoration: none;
+    color: inherit;
+}
+.Comida:hover{
+    color: rgb(120, 255, 165);
+    border-color: rgb(120,255 , 165);
+    cursor: pointer;
+}
+.Comida a :hover{
+    color: rgb(120, 255, 165);
+
+}
+.Tecnologia{
+    width: 25%;
+    box-shadow: 20px 20px 100px -30px #caeffb;
+    margin:5px;
+    border-radius: 2em;
+    border-style: solid;
+    border-color: rgb(205, 205, 254);
+}
+.Tecnologia a{
+    text-decoration: none;
+    color: inherit;
+}
+.Tecnologia:hover{
+    color: rgb(120, 255, 165);
+    border-color: rgb(120,255 , 165);
+    cursor: pointer;
+}
+.Tecnologia a :hover{
+    color: rgb(120, 255, 165);
+}
+.Circo{
+    width: 25%;
+     box-shadow: 20px 20px 100px -30px hsl(8, 100%, 83%);
+     margin: 5px;
+     border-radius: 2em;
+     border-style: solid;
+     border-color: rgb(255, 214, 214);
+}
+.Circo a{
+    text-decoration: none;
+    color: inherit;
+}
+.Circo:hover{
+    color: rgb(120, 255, 165);
+    border-color: rgb(120,255 , 165);
+    cursor: pointer;
+}
+.Circo a :hover{
+    color: rgb(120, 255, 165);
+}
+
+
+@media screen and (max-width: 768px){
+    .Corpo{
+        flex-direction:row;
+        flex-wrap: wrap;
+    }
+    .Tecnologia,.Historia,.Comida,.Circo{
+        width: 47%;
+    }
+    h3{
+        font-size: 28px;
+        margin-left: 30px;
+    }
+    h2{
+        font-size: 25px;
+    }
+    h1{
+        font-size: 22px;
+        margin-left: 20px;
+    }
+    p{
+        font-size: 21px;
+    }
+    #Logo{
+        margin: 0px;
+    }
+    header{
+        padding: 1.5rem 2rem;
+    }
+    li{
+        display: none;
+    }
+    .mobile-menu-icon{
+        display: block;
+    }
+    .mobile-menu-icon{
+        display: block;
+    }
+    .mobile-menu-icon button{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .mobile-menu ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    .mobile-menu li{
+        display: block;
+        padding-top: 1,2rem;
+    }
+    .open{
+        display: block;
+    }
+    #footer_content {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 2rem;
+    }
+}
+
+
+
+
+
+footer {
+    width: 100%;
+    color: var(--color-neutral-40);
+}
+
+.footer-link {
+    text-decoration: none;
+}
+h5{
+    font-size: 21px;
+    font-family: 'Changa', sans-serif;
+    color: rgb(255, 255, 255);
+}
+#p{
+    font-family: 'Changa', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+#footer_content {
+    background-color:#44b342;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0.5rem 2.5rem;
+}
+
+#footer_contacts h1 {
+    margin-bottom: 0.75rem;
+}
+
+#footer_social_media {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+} 
+
+#footer_social_media .footer-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    color: var(--color-neutral-40);
+    border-radius: 50%;
+    transition: all 0.4s;
+}
+
+#footer_social_media .footer-link i {
+    font-size: 1.25rem;    
+}
+
+#footer_social_media .footer-link:hover {
+    opacity: 0.8;
+}
+
+#instagram {
+    background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+}
+
+#facebook {
+    background-color: #4267b3;
+}
+
+#whatsapp {
+    background-color: #25d366;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    list-style: none;
+    font-family: 'Changa', sans-serif;
+    font-size: 20px;
+}
+
+.footer-list .footer-link {
+    color: var(--color-neutral30);
+    transition: all 0.4s;
+}
+
+.footer-list .footer-link:hover {
+    color: #7f37c9;
+}
+#footer_copyright {
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-neutral-0);
+    font-size: 0.9rem;
+    padding: 1rem;
+    font-weight: 100;
+}
