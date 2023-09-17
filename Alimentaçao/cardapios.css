@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+body{
+    width: 90vw;
+    height: 250vh;
+    background-image: url(Cardápio\ de\ bolos\ confeitaria\ moderno\ rosa\ marrom\ menu\ .png);
+    background-size: cover;
+}
+img{
+    height: 80px;
+    width: 100px;
+    margin-right:  -100px;
+    display: flex;
+    padding-top: 1700px;
+    float: right;
+}
+@media screen and (max-width: 768px){
+    body{
+        margin-top: 20px;
+        height: 60vh;
+        background-image: url(Cardápio\ de\ bolos\ confeitaria\ moderno\ rosa\ marrom\ menu\ _resized.png);
+        background-repeat: no-repeat;
+        display: flex;
+    }
+    img{
+        height: 30px;
+        width: 40px;
+        padding-top: 610px;
+        padding-left: 300px;
+    }
+}
