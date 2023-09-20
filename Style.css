@@ -335,10 +335,10 @@ body{
         top: -7px;
     }
     .Container{
-        background-image: url(fundo_resized.jpeg);
+        background-image: url(fundoa.jpeg);
         background-position: center;
         height: 400px;
-        width: 520px;
+        width: 480px;
         overflow-x: hidden;
     }
 
