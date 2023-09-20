@@ -1,21 +1,23 @@
 body{
     margin: 0;
     padding: 0;
-    display: flex;
+    display:flex;
 }
 body{
     width: 90vw;
-    height: 250vh;
+    height: 256vh;
     background-image: url(Cardápio\ de\ bolos\ confeitaria\ moderno\ rosa\ marrom\ menu\ .png);
     background-size: cover;
+    position: relative;
 }
-img{
+.seta{  
     height: 80px;
     width: 100px;
     margin-right:  -100px;
     display: flex;
-    padding-top: 1700px;
-    float: right;
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
 @media screen and (max-width: 768px){
     body{
@@ -25,10 +27,10 @@ img{
         background-repeat: no-repeat;
         display: flex;
     }
-    img{
+    .seta{
         height: 30px;
         width: 40px;
-        padding-top: 610px;
-        padding-left: 300px;
+        margin-right: 0;
+        bottom: -180px;
     }
 }
