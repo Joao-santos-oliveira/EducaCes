@@ -338,8 +338,8 @@ body{
         background-image: url(fundo_resized.jpeg);
         background-position: center;
         height: 400px;
-        width: 480px;
-        
+        width: 520px;
+        overflow-x: hidden;
     }
 
 }
