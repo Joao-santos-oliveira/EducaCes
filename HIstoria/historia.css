@@ -302,13 +302,16 @@ h5{
         transform: rotate(-135deg);
         top: -7px;
     }
+    main{
+        margin: 20px;
+    }
     h1{
-        font-size: 18px;
-        line-height: 15px;
+        font-size: 28px;
+        line-height: 25px;
         text-align: center;
     }
     p{
-        font-size: 10px;
+        font-size: 12px;
         text-align: justify;
     }
     .text{
