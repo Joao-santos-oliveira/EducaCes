@@ -337,7 +337,7 @@ a{
         gap: 2rem;
     }
     .hamburguer{
-        display: block;
+        display: none;
         z-index: 1;
     }
     .nav-list{
