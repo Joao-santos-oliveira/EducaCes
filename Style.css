@@ -357,11 +357,10 @@ body{
     #video{
         width: 360px;
         height: 180px;
-        margin: 5px;
-        margin-left: 28px;
+        margin: 20px;
+        margin-left: 10px;
         margin-bottom: 40px;
     }
-
 }
 
 
@@ -476,6 +475,7 @@ h5{
     #footer_content {
         grid-template-columns: repeat(1, 1fr);
         gap: 2rem;
+        align-items: center;
     }
     .footer-list{
         display: none;

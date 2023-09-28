@@ -1,0 +1,29 @@
+*{
+    margin: 20px;
+    margin-bottom: 100px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    display:flex;
+}
+body{
+    width: 90vw;
+    height: 86vh;
+    background-image: url(Artes/DOCES.jpeg);
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+}
+@media screen and (max-width: 768px){
+    *{
+        margin: 5px;
+    }
+    body{
+        margin-top: 20px;
+        height: 60vh;
+        background-image: url(Artes/DOCES\ CEL.jpeg);
+        background-repeat: no-repeat;
+        display: flex;
+    }
+}

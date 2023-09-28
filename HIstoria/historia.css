@@ -304,11 +304,13 @@ h5{
     }
     main{
         margin: 20px;
+        margin-bottom: 80px;
     }
     h1{
         font-size: 28px;
         line-height: 25px;
         text-align: center;
+        margin-bottom: 30px;
     }
     p{
         font-size: 12px;

@@ -1,0 +1,29 @@
+*{
+    margin: 20px;
+    margin-bottom: 300px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    display:flex;
+}
+body{
+    width: 90vw;
+    height: 56vh;
+    background-image: url(Artes/MACARRÃO.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+@media screen and (max-width: 768px){
+    *{
+        margin: 5px;
+    }
+    body{
+        margin-top: 20px;
+        height: 60vh;
+        background-image: url(Artes/MACARRÃO\ CEL.jpeg);
+        background-repeat: no-repeat;
+        display: flex;
+    }
+}
