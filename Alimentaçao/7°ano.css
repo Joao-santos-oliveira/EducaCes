@@ -1,6 +1,6 @@
 *{
     margin: 20px;
-    margin-bottom: 320px;
+    margin-bottom: -100px;
 }
 body{
     margin: 0;
@@ -9,8 +9,9 @@ body{
 }
 body{
     width: 90vw;
-    height: 66vh;
-    background-image: url(Artes/FIT.jpeg);
+    height: 326vh;
+    background-color: black;
+    background-image: url(Artes/FIT1.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -21,8 +22,9 @@ body{
     }
     body{
         margin-top: 20px;
-        height: 60vh;
-        background-image: url(Artes/FIT\ CEL.jpeg);
+        height: 40vh;
+        background-color: white;
+        background-image: url(Artes/FIT1.jpeg);
         background-repeat: no-repeat;
         display: flex;
     }

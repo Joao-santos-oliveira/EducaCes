@@ -29,7 +29,7 @@
 .testimonial .image {
   height: 170px;
   width: 170px;
-  object-fit: cover;
+  object-fit:cover;
   border-radius: 50%;
 }
 .testimonial .slide {
@@ -140,7 +140,7 @@ header{
     gap: 32px;
 }
 .nav-list a{
-    font-size: 22px;
+    font-size: 19px;
     color: rgb(71, 71, 71);
     padding-block: 16px;
 }
@@ -259,6 +259,9 @@ h5{
 #whatsapp {
     background-color: #25d366;
 }
+#tiktok{
+    background-color: black;
+}
 
 .footer-list {
     display: flex;
@@ -344,6 +347,9 @@ h5{
     .nav-list li:nth-child(3) a{
         transition: 0.5s 0.6s;
         
+    }
+    .nav-list li:nth-child(4) a{
+        transition: 0.5s 0.8s;
     }
     .nav.active .nav-list{
         clip-path: circle(1500px at 90% -15%);

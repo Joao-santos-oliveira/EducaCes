@@ -9,8 +9,9 @@ body{
 }
 body{
     width: 90vw;
-    height: 56vh;
-    background-image: url(Artes/SALGADOS.jpeg);
+    height: 226vh;
+    background-color: black;
+    background-image: url(Artes/SALGADOS\ CEL.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -21,6 +22,7 @@ body{
     }
     body{
         margin-top: -100px;
+        background-color: white;
         height: 60vh;
         background-image: url(Artes/SALGADOS\ CEL.jpeg);
         background-repeat: no-repeat;

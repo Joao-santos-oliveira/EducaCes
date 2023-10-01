@@ -9,8 +9,9 @@ body{
 }
 body{
     width: 90vw;
-    height: 86vh;
-    background-image: url(Artes/DOCES.jpeg);
+    height: 315vh;
+    background-color: black;
+    background-image: url(Artes/DOCES\ CEL.jpeg);
     background-size: cover;
     position: relative;
     background-repeat: no-repeat;
@@ -21,6 +22,7 @@ body{
     }
     body{
         margin-top: 20px;
+        background-color: white;
         height: 60vh;
         background-image: url(Artes/DOCES\ CEL.jpeg);
         background-repeat: no-repeat;

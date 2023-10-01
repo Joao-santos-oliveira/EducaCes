@@ -1,7 +1,5 @@
 *{
     margin: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
 }
 body{
     margin: 0;
@@ -10,8 +8,9 @@ body{
 }
 body{
     width: 90vw;
-    height: 26vh;
-    background-image: url(Artes/BEBIDAS.jpeg);
+    height: 326vh;
+    background-color: black;
+    background-image: url(Artes/BEBIDAS\ CEL.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -22,6 +21,7 @@ body{
     }
     body{
         padding-top: 200px;
+        background-color: white;
         height: 200px;
         background-image: url(Artes/BEBIDAS\ CEL.jpeg);
         background-repeat: no-repeat;

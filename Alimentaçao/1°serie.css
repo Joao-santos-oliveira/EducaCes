@@ -1,16 +1,17 @@
 *{
-    margin: 20px;
-    margin-bottom: 400px;
+    margin: 30px;
+    margin-bottom: 700px;
 }
 body{
     margin: 0;
     padding: 0;
     display:flex;
+    background-color: black;
 }
 body{
     width: 90vw;
-    height: 56vh;
-    background-image: url(Artes/PAO\ DE\ QUEIJO.jpeg);
+    height: 220vh;
+    background-image: url(Artes/PAO\ DE\ QUEIJO\ CEL.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -18,8 +19,10 @@ body{
 @media screen and (max-width: 768px){
     *{
         margin: 5px;
+        margin-bottom: 5px;
     }
     body{
+        background-color: #fff;
         margin-top: 20px;
         height: 60vh;
         background-image: url(Artes/PAO\ DE\ QUEIJO\ CEL.jpeg);
