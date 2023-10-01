@@ -325,13 +325,14 @@ h5{
         margin-right: 10px;
         align-items: center;
     }
-    #video{
+   #video{
         width: 360px;
         height: 180px;
         margin: 0px;
-        position:static;
         margin-bottom: 40px;
-        text-align: center;
+    }
+    #video{
+        margin: 0px;
     }
     h6{
         font-size: 20px;

@@ -376,4 +376,8 @@ a{
     .nav-list a{
    display: none;
     }
+    nav ul{
+        width: 0;
+    }
+
 }
