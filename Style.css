@@ -126,11 +126,11 @@ h2{
     padding-top: 35px;
 }
 h3{
-    font-size: 40px;
+    font-size: 55px;
     color: rgb(120, 255, 165);
     font-family: 'Merienda', cursive;
     margin-top: -40px;
-    margin-left: 250px;
+    margin-left: 450px;
 }
 h4{
     color: black;
@@ -271,8 +271,8 @@ body{
         align-items: center;
     }
     h3{
-        font-size: 15px;
-        margin-left: 40px;
+        font-size: 22px;
+        margin-left: 120px;
     }
     h2{
         font-size: 22px;
